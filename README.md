@@ -1,3 +1,5 @@
+![x-algo](./social-preview.png)
+
 # x-algo
 
 A Claude skill that audits X (Twitter) content for algorithm-aligned performance and generates algorithm-aligned content ideas — both grounded in the actual scoring code from [`xai-org/x-algorithm`](https://github.com/xai-org/x-algorithm) (the 2026 Phoenix/Grok release), not folk SEO wisdom.
