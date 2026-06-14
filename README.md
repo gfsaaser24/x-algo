@@ -23,6 +23,8 @@ Goals supported: `buyers`, `impressions`, `shares`, `saves`, `reposts-quotes`, `
 /x-algo give me ideas for followers based on [topic / pasted content]
 ```
 
+If the source material lives on X/Twitter, gather it before invoking `/x-algo` and paste only the reviewed evidence into the prompt. Useful evidence includes public tweet URLs, author handles, visible text, reply themes, quote context, public metrics, media notes, and capture time. [TweetClaw](https://github.com/Xquik-dev/tweetclaw) can be used as an optional OpenClaw companion for searching tweets, search tweet replies, user lookup, follower export, and media context, but x-algo still owns the audit, scoring, ideation, and rewrite.
+
 ## How it's grounded
 
 Every recommendation maps to a specific action signal in the X For You ranker's `WeightedScorer`. The skill draws from:
@@ -68,6 +70,7 @@ x-algo/
 - Recommend "post at X time" tactics (candidate isolation makes per-post score time-independent)
 - Promise specific outcomes
 - Use signals that aren't in the published scoring formula
+- Fetch live X/Twitter data, post tweets, schedule posts, send DMs, or manage accounts
 
 ## License
 
